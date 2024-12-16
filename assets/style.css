@@ -1,0 +1,544 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* TIPOGRAFIA */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: Merriweather Sans;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: Monomaniac One;
+  font-size: 3.4rem;
+  color: #CB244A;
+}
+
+.branco {
+  color: #fff;
+  margin-bottom: 2.9rem;
+}
+
+h4 {
+  font-family: Monomaniac One;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.h4 {
+  font-family: Monomaniac One;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+h5 {
+  font-family: Monomaniac One;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.azul {
+  color: #0F1C31;
+}
+
+p {
+  color: white;
+}
+
+.light {
+  color: #7A98B2;
+}
+
+.preto {
+  color: black;
+}
+
+.font {
+  font-family: Monomaniac One;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.fontP {
+  font-family: Monomaniac One;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0F1C31;
+}
+
+/* NAV-BAR */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.7rem 3.4rem;
+}
+
+.navBar span a{
+  align-items: center;
+}
+
+.navBar span a:hover{
+  color: #7A98B2;
+}
+
+.navBar span {
+  display: flex;
+  gap: 2rem;
+}
+
+/* BACKGROUND */
+
+#home {
+  background-image: url(img/Korey\ Cooper\ \(4\).png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+#sobre {
+  background-color: #0F1C31;
+}
+
+.container {
+  display: flex;
+  padding: 9.2rem 3.4rem;
+  gap: 9.2rem;
+}
+
+.sobre {
+  gap: 9.2rem;
+}
+
+.sobre h2{
+  margin-bottom: 2.8rem;
+}
+
+.sobre p {
+  margin-bottom: 1.8rem;
+}
+
+.img img{
+  height: 34rem;
+}
+
+button {
+  font-family: itim;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #CB244A;
+  background-color: transparent;
+
+  border: .28rem solid #CB244A;
+  border-radius: 3.5rem;
+
+  padding: 1.5rem 3.1rem ;
+  margin-top: 2.5rem;
+}
+
+button:hover {
+  color: #0F1C31;
+  background-color: #CB244A;
+  border-color: #CB244A;
+
+  cursor: pointer;
+}
+
+/* BACKGROUND 2 */
+
+#membros {
+  background: linear-gradient(to bottom, #CB244A 65%, transparent 35%);
+  padding: 0 3.4rem 9.2rem 3.4rem;
+}
+
+.container-premi {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  gap: 2.3rem;
+  padding: 7.2rem 3.4rem 0 3.4rem;
+  margin-bottom: 2.3rem;
+}
+
+.premi {
+  padding: 0 10rem 7.2rem 10rem;
+}
+
+.info {
+  text-align: center;
+}
+
+.membros {
+  display: flex;
+  gap: 4.5rem;
+  justify-content: center;
+
+  margin-top: 2.9rem;
+}
+
+.container-membros {
+  text-align: center;
+}
+
+/* VIDEOS */
+
+#videos {
+  text-align: center;
+  padding: 9.2rem 3.4rem;
+}
+
+#videos div h2 {
+  margin-bottom: 2.9rem;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#v {
+  height: 17rem;
+  width: 32rem;
+  margin-left: -2.9rem;
+}
+
+footer {
+  font-size: 1.2rem;
+
+  text-align: center;
+  padding: 18rem 3.4rem 9.2rem 3.4rem;
+}
+
+
+/* PAGINA2 */
+
+#disco {
+  background-image: url(img/Discografia.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-musica {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  
+  padding: 0 3.4rem 1.2rem 3.4rem;
+}
+
+.container-musica button {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: none;
+  border-radius: 5px;
+
+  width: 25rem;
+  height: 24rem;
+
+  margin-bottom: 1.2rem;
+  margin-top: 5.3rem;
+}
+
+#m1 {
+  background-image: url(img/image\ \(1\).png);
+}
+#m2 {
+  background-image: url(img/image\ \(2\).png);
+}
+#m3 {
+  background-image: url(img/image\ \(3\).png);
+}
+#m4 {
+  background-image: url(img/image\ \(4\).png);
+}
+#m5 {
+  background-image: url(img/image\ \(5\).png);
+}
+#m6 {
+  background-image: url(img/remix.jpg);
+}
+#m7 {
+  background-image: url(img/image\ \(7\).png);
+}
+#m8 {
+  background-image: url(img/image\ \(8\).png);
+}
+#m9 {
+  background-image: url(img/image\ \(9\).png);
+}
+#m10 {
+  background-image: url(img/image\ \(10\).png);
+}
+#m11 {
+  background-image: url(img/image\ \(11\).png);
+}
+#m12 {
+  background-image: url(img/image\ \(12\).png);
+}
+
+/* FILTROOO */
+
+.container-filtro {
+  padding: 0 3.4rem;
+}
+
+.container-filtro h2{
+  margin-bottom: 2rem;
+}
+
+.container-filtro span {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.container-filtro span button {
+  font-size: 14px;
+  padding: 1.3rem 2.5rem ;
+  margin: 0;
+}
+
+/* BARRA BUSCA */
+
+.search {
+  padding: 17rem 0;
+  text-align: center;
+}
+
+.search-bar {
+  gap: 7.2rem;
+  padding: .5rem 1.3rem;
+
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: transparent;
+
+  border: .2rem solid #CB244A;
+  border-radius: 3.3rem;
+}
+
+.search-bar input {
+  width: 24rem;
+
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+  color: #fff;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.search-bar button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+/* PAGINA3!!!! */
+
+.nome {
+  padding: 9.2rem 3.4rem 18rem 3.4rem;
+}
+
+.nome span h2 {
+  font-size: 6.5rem;
+  font-weight: 500;
+}
+
+.nome span p {
+  font-size: 1.2rem;
+  padding: 0 2.3rem;
+  margin-bottom: 5.5rem;
+}
+
+#right {
+  margin-left: 3.2rem;
+  margin-top: -2.5rem;
+}
+
+.nome a{
+  font-family: itim;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #CB244A;
+  background-color: transparent;
+
+  border: .28rem solid #CB244A;
+  border-radius: 3.5rem;
+
+  padding: 1.5rem 3.1rem;
+  margin: 7.5rem;
+}
+
+.nome a:hover {
+  color: #ffffff;
+  background-color: #CB244A;
+  border-color: #CB244A;  
+  cursor: pointer;
+}
+
+.container-sobre {
+  background-color: #CB244A;
+  display: flex;
+  padding: 9.2rem 3.4rem;
+  gap: 10rem;
+}
+
+.container-sobre span {
+  text-align: center;
+}
+
+.h4 {
+  margin-bottom: .5rem;
+}
+
+.container-sobre span p {
+  margin-bottom: .7rem;
+}
+
+/* CONTATO */
+
+#contato {
+  background-color: #0F1C31;
+  padding: 7.2rem 3.5rem;
+  display: grid;
+  place-items: center;
+  align-self: center;
+}
+
+.container-info header {
+  text-align: center;
+}
+
+header h2{
+  font-size: 3.2rem;
+}
+
+p.light {
+  font-size: 1.15rem;
+  font-weight: 200;
+}
+
+.container-info {
+  display: grid;
+  gap: 1.7rem;
+
+  width: 32%;
+}
+
+.container-info label, input, textarea {
+  color: #fff;
+  width: 100%;
+}
+
+.container-info input, .container-info textarea {
+  padding: .7rem 1.2rem;
+  gap: 1.7rem;
+  margin-bottom: 1.3rem;
+  margin-top: .3rem;
+  border: none;
+  background-color: #F1F1F1;
+  color: #3C3C3C;
+
+  outline: none;
+}
+
+.container-info input:focus, .container-info textarea:focus {
+  background-color: #dfdfdf;
+  color: #0F1C31;
+
+  outline: none;
+}
+
+.container-info input::placeholder, .container-info textarea::placeholder {
+  color: #0F1C31;
+}
+
+.container-info textarea {
+  height: 128px;
+  resize: none;
+}
+
+.container-info button {
+  width: 100%;
+  padding: 1.4rem 1.9rem;
+  border: .2rem solid #CB244A;
+  border-radius: 5rem;
+
+  background-color: #CB244A;;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container-info button:hover {
+  color: #CB244A;
+  cursor: pointer;
+  border: .2rem solid #CB244A;;
+  background-color: transparent;
+  border-radius: 5rem;
+}
+
+#last {
+  color: #0F1C31;
+}
+
+/* JANELAS MODAAIISS */
+
+.modal {
+  display: none;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
